@@ -88,7 +88,7 @@ let olympicsAnswers = {
 /* Modal Functionality */
 
 
-const modalScreen = document.getElementById('#myModal');
+const modalScreen = document.getElementById('myModal');
 
 // Creates an array of elements that have the class .modal-btn
 const btns = document.querySelectorAll('.modal-btn');
@@ -98,10 +98,13 @@ const exitBtn = document.querySelector('.exit');
 // For each statement: it loops through the btns array of elements 
 // and adds an event listener to each one. 
 btns.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-        console.log(e.target)
+    btn.addEventListener('click', () => {
+        console.log(modalScreen)
+        modalScreen.style.display = "block";
     })
 })
+
+
 
 
 
