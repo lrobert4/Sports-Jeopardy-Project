@@ -1,9 +1,11 @@
 nav {
     background: #ccc;
+    height: 80px;
 }
 
 h1 {
     text-align: center;
+    padding-top: 32px;
 }
 
 .category-row {
@@ -15,18 +17,34 @@ h1 {
 
 .even-color {
     background-color: #555;
+    text-align: center;
 }
 
 .odd-color {
     background-color: #ccc;
+    text-align: center;
 }
 
+.headline {
+
+    height: 80px;
+    
+}
+
+.category-headline p {
+    text-align: center;
+}
+
+.pt-color p {
+    text-align: center;
+}
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
 
 }
+
 
 
 /* square-row-one row styles */
