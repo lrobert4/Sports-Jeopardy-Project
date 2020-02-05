@@ -33,10 +33,12 @@ h1 {
 
 .category-headline p {
     text-align: center;
+    padding-top: 18px;
 }
 
 .pt-color p {
     text-align: center;
+    padding-top: 85px;
 }
 
 .container {
