@@ -93,23 +93,26 @@ const modalScreen = document.getElementById('myModal');
 // Creates an array of elements that have the class .modal-btn
 const btns = document.querySelectorAll('.modal-btn');
 
-const exitBtn = document.querySelector('.exit');
+const submitBtn = document.querySelector('.submission');
 
 // For each statement: it loops through the btns array of elements 
 // and adds an event listener to each one. 
 btns.forEach(btn => {
     btn.addEventListener('click', () => {
-        console.log(modalScreen)
+        
         modalScreen.style.display = "block";
     })
 })
 
+//submitBtn.forEach(submitBtn => {
 
 
 
+//})
 
-/*
-exitBtn.addEventListener('click', () => {
+submitBtn.addEventListener('click', () => {
     modalScreen.style.display = "none";
-})*/
+})
+
+
 
