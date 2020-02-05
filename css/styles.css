@@ -43,3 +43,19 @@ h1 {
     grid-template-columns: 200px 200px 200px 200px 200px 200px; 
     
 }
+
+
+.square-row-three {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px; 
+    
+}
+
+
+.square-row-four {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px; 
+    
+}
