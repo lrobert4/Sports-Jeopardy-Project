@@ -21,6 +21,14 @@ h1 {
     background-color: #ccc;
 }
 
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
 /* square-row-one row styles */
 
 .square-row-one {
