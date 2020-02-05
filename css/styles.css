@@ -8,6 +8,15 @@ h1 {
 
 .category-row {
     display: grid;
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-rows: 50px;
     grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    
+}
+
+.even-color {
+    background-color: #555;
+}
+
+.odd-color {
+    background-color: #ccc;
 }
