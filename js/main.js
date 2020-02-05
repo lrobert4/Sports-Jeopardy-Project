@@ -95,6 +95,8 @@ const btns = document.querySelectorAll('.modal-btn');
 
 const submitBtn = document.querySelector('.submission');
 
+let captureAnswer = document.querySelectorAll('.answers').value;
+
 // For each statement: it loops through the btns array of elements 
 // and adds an event listener to each one. 
 btns.forEach(btn => {
@@ -104,15 +106,21 @@ btns.forEach(btn => {
     })
 })
 
-//submitBtn.forEach(submitBtn => {
+    submitBtn.addEventListener('click', () => {
+        modalScreen.style.display = "none";
+    })
+
+    captureAnswer.addEventListener('click', () => {
+        if(captureAnswer > 2) {
+            alert("Select only 1 answer!");
+        }
+    })
 
 
 
-//})
 
-submitBtn.addEventListener('click', () => {
-    modalScreen.style.display = "none";
-})
+
+
 
 
 
