@@ -20,3 +20,26 @@ h1 {
 .odd-color {
     background-color: #ccc;
 }
+
+/* square-row-one row styles */
+
+.square-row-one {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    
+}
+
+.pt-color {
+    background-color: #EDEDED;
+    border: 0.5px solid #555;
+}
+
+/* square-row-two row styles */
+
+.square-row-two {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px; 
+    
+}
