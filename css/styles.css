@@ -45,6 +45,8 @@ h1 {
 }
 
 
+/* square-row-three row styles */
+
 .square-row-three {
     display: grid;
     grid-template-rows: 200px;
@@ -52,10 +54,19 @@ h1 {
     
 }
 
+/* square-row-four row styles */
 
 .square-row-four {
     display: grid;
     grid-template-rows: 200px;
     grid-template-columns: 200px 200px 200px 200px 200px 200px; 
     
+}
+
+/* final-square row styles */
+
+.final-square {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 1200px;
 }
