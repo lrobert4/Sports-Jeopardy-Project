@@ -98,3 +98,12 @@ h1 {
     grid-template-rows: 200px;
     grid-template-columns: 1200px;
 }
+
+
+/* pop-up-window row styles */
+
+.pop-up-window {
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: 1200px;
+}
