@@ -185,12 +185,18 @@
                 <span>Choose your answer below.</span>
             
             </p>
-            <input class="answers" type="radio" value="4"> 4<br>
-            <input class="answers" type="radio" value="7"> 7<br>
-            <input class="answers" type="radio" value="6"> 6<br>
-            <input class="answers" type="radio" value="8"> 8<br>
 
-            <button class = "submission">Submit Answer</button>
+            <form id="myForm" onsubmit="validateSub()">
+
+                <input class="answers" type="radio" value="4"> 4<br>
+                <input class="answers" type="radio" value="7"> 7<br>
+                <input class="answers" type="radio" value="6"> 6<br>
+                <input class="answers" type="radio" value="8"> 8<br>
+
+                <button class = "submission">Submit Answer</button>
+
+            </form><!---- End of myForm id---->
+            
         </div><!--- End of modal-content-->
 
     </section><!---End of pop-up-window class-->
