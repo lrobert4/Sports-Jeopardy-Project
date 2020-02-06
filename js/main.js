@@ -3,6 +3,7 @@ let categoryQuestions = [
     {
         fifaQuestions:
         {
+            id: ["routeFifa10", "routeFifa30", "routeFifa50", "routeFifa100"],
             tenPts: "Where was the first-ever World Cup held/?",
             thirtyPts: "Who is the Champion of FIFA World Cup 2006/?",
             fiftyPts: "Who is the Champion of FIFA World Cup 2010 South Africa/?",
@@ -12,6 +13,7 @@ let categoryQuestions = [
     {
         cfbQuestions:
         {
+            id: ["routeCfb10", "routeCfb30", "routeCfb50", "routeCfb100"],
             tenPts: "Which of these teams is not in the SEC/?",
             thirtyPts: "Which bowl game is played in Tampa, Florida (as of 2001)/?",
             fiftyPts: "What two schools played in the first ever college football game in 1869/?",
@@ -21,6 +23,7 @@ let categoryQuestions = [
     {
         nflQuestions:
         {
+            id: ["routeNfl10", "routeNfl30", "routeNfl50", "routeNfl100"],
             tenPts: "Which city are the 'Broncos' from/?",
             thirtyPts: "This franchise played in Cleveland, Los Angeles, and St. Louis. Which team is this/?",
             fiftyPts: "Which of the following is NOT an NFL team name/?",
@@ -30,6 +33,7 @@ let categoryQuestions = [
     {
         nbaQuestions:
         {
+            id: ["routeNba10", "routeNba30", "routeNba50", "routeNba100"],
             tenPts: "Everyone knows about Dr. J, but do you know his real name/?",
             thirtyPts: "What was the original name of the NBA/?",
             fiftyPts: "What is Wilt Chamberlain's record for most points in a game/?",
@@ -39,6 +43,7 @@ let categoryQuestions = [
     {
         mlbQuestions:
         {
+            id: ["routeMlb10", "routeMlb30", "routeMlb50", "routeMlb100"],
             tenPts: "In the 2000s decade, which team other than the Yankees won two World Series/?",
             thirtyPts: "Which American League team represented their league in the 2014 World Series/?",
             fiftyPts: "Which team never had a winning record in a season during the 2000s decade/?",
@@ -48,6 +53,7 @@ let categoryQuestions = [
     {
         olympicsQuestions:
         {
+            id: ["routeOlympics10", "routeOlympics30", "routeOlympics50", "routeOlympics100"],
             tenPts: "Who won the Olympics 100m race in London 2012/?",
             thirtyPts: "Where was the summer olympics hosted in 1996/?",
             fiftyPts: "Which athlete has won the most Olympic medals/?",
@@ -120,9 +126,12 @@ let categoryAnswers = [
 ] // End of array of objects for categoryAnswers
 
 
-
-
 /* Routing data into question and answers */
+
+let routeFifaContent = document.querySelectorAll('#routeFIFA');
+//routeFifaContent.forEach(function(categoryQuestions.fifaQuestions[i]) )
+
+console.log(routeFifaContent);
 
 //const 
 
@@ -131,7 +140,6 @@ let categoryAnswers = [
 
 
 /* Modal Functionality */
-
 
 const modalScreen = document.getElementById('myModal');
 
