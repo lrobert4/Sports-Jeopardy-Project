@@ -1,3 +1,54 @@
+/* Creating an array of nested objects */
+let categoryQuestions = [
+    {
+        fifaQuestions:
+        {
+            tenPts: "Where was the first-ever World Cup held/?",
+            thirtyPts: "Who is the Champion of FIFA World Cup 2006/?",
+            fiftyPts: "Who is the Champion of FIFA World Cup 2010 South Africa/?",
+            oneHundredPts: "What was the score between Brazil and Italy in the 1970 Final/?"
+        }
+    },
+    {
+        cfbQuestions:
+        {
+            tenPts: "Which of these teams is not in the SEC/?",
+            thirtyPts: "Which bowl game is played in Tampa, Florida (as of 2001)/?",
+            fiftyPts: "What two schools played in the first ever college football game in 1869/?",
+            oneHundredPts: "Which of these 4 major colleges did NOT put a QB into the NFL in the 1990s/?"
+        }
+    },
+    {
+        nflQuestions:
+        {
+            tenPts: "Which city are the 'Broncos' from/?",
+            thirtyPts: "This franchise played in Cleveland, Los Angeles, and St. Louis. Which team is this/?",
+            fiftyPts: "Which of the following is NOT an NFL team name/?",
+            oneHundredPts: "The Miami Dolphins began their franchise in 1966 in the AFL. They joined the NFL in 1970 under the helm of which head coach/?"
+        }
+    },
+    {
+        nbaQuestions:
+        {
+            tenPts: "Everyone knows about Dr. J, but do you know his real name/?",
+            thirtyPts: "What was the original name of the NBA/?",
+            fiftyPts: "What is Wilt Chamberlain's record for most points in a game/?",
+            oneHundredPts: "What was the original name of the NBA/?"
+        }
+    }
+
+
+
+
+
+
+
+
+] //End of categoryQuestions array of nested objects
+
+
+
+
 /* Objects that contain category questions */
 let fifaQuestions = {
     tenPts: "Where was the first-ever World Cup held/?",
@@ -85,6 +136,14 @@ let olympicsAnswers = {
     oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
 }
 
+/* Routing data into question and answers */
+
+//const 
+
+
+
+
+
 /* Modal Functionality */
 
 
@@ -102,20 +161,29 @@ let captureAnswer = document.querySelectorAll('.answers').value;
 // and adds an event listener to each one. 
 btns.forEach(btn => {
     btn.addEventListener('click', () => {
-        
+
         modalScreen.style.display = "block";
     })
 })
 
-    submitBtn.addEventListener('click', () => {
-        modalScreen.style.display = "none";
-    })
+submitBtn.addEventListener('click', () => {
+    modalScreen.style.display = "none";
+})
 
 
+// User must have atleast one answer selected to submit
+/*
 function validateSub() {
-    console.log('Your answer is submitted.');
+    let x = document.forms['myForm']['catanswer'].value;
+    console.log(document.forms['myForm']['catanswer'])
+  if (x == "") {
+    event.preventDefault();
+    document.getElementsByClassName('errormessage').innerHTML = "You must select one answer!";
 
-}
+  }
+  //console.log("work");
+
+} */
 
 
 

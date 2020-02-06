@@ -55,7 +55,7 @@
 
     </section> <!---End of category-row class-->
 
-    <section id = "modal-override" class = "square-row-one">
+    <section id="row-one" class="square-row-one">
 
         <div class="fifa-row-one pt-color modal-btn">
             <p>10PTS</p> 
@@ -83,7 +83,7 @@
         
     </section> <!---End of square-row-one class-->
 
-    <section class = "square-row-two">
+    <section id="row-two" class="square-row-two">
 
         <div class="fifa-row-one pt-color modal-btn"> 
             <p>30PTS</p>
@@ -111,7 +111,7 @@
         
     </section> <!---End of square-row-two class-->
 
-    <section class = "square-row-three">
+    <section id="row-three" class="square-row-three">
 
         <div class="fifa-row-one pt-color modal-btn"> 
             <p>50PTS</p>
@@ -139,7 +139,7 @@
         
     </section><!---End of square-row-three class-->
 
-    <section class = "square-row-four">
+    <section id="row-four" class="square-row-four">
 
         <div class="fifa-row-one pt-color modal-btn"> 
             <p>100PTS</p>
@@ -167,7 +167,7 @@
         
     </section><!---End of square-row-four class-->
 
-    <section class = "final-square">
+    <section id="row-five" class="final-square">
 
         <div class="final-question pt-color modal-btn"> <p>Final Question</p> </div>
         
@@ -177,21 +177,23 @@
 
 
 
-    <section id = "myModal" class = "pop-up-window modal">
+    <section id="myModal" class="pop-up-window modal">
 
-        <div class = "cat-question-box pt-color modal-content">
+        <div class="cat-question-box pt-color modal-content">
             
-            <p class = "question">How many Super Bowls appearances has Bill Belicheck made? <br/>
+            <p class="question">How many Super Bowls appearances has Bill Belicheck made? <br/>
                 <span>Choose your answer below.</span>
             
             </p>
 
-            <form id="myForm" onsubmit="validateSub()">
+            <form id="triviaForm" onsubmit="return validateSub()" name="myForm">
 
                 <label><input class="answers" type="radio" value="4" name="catanswer"> 4 </label><br>
                 <label><input class="answers" type="radio" value="7" name="catanswer"> 7 </label><br>
                 <label><input class="answers" type="radio" value="6" name="catanswer"> 6</label><br>
                 <label><input class="answers" type="radio" value="8" name="catanswer"> 8  </label><br>
+
+                <label><span class="errormessage"></span></label>
 
                 <button class = "submission">Submit Answer</button>
 
