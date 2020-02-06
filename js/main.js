@@ -111,22 +111,13 @@ btns.forEach(btn => {
         modalScreen.style.display = "none";
     })
 
-    /* captureAnswer.addEventListener('click', () => {
-        if(captureAnswer > 2) {
-            alert("Select only 1 answer!");
-        }
-    })*/
 
 function validateSub() {
     console.log('Your answer is submitted.');
 
 }
 
-// Limit user to select only one answer.
-function selectDeselect() {
-    let oneAnswer = 
-    captureAnswer
-}
+
 
 
 
