@@ -1,4 +1,4 @@
-/* Creating an array of nested objects */
+/* Creating an array of nested objects for category questions */
 let categoryQuestions = [
     {
         fifaQuestions:
@@ -57,6 +57,71 @@ let categoryQuestions = [
     }
 
 ] //End of categoryQuestions array of nested objects
+
+
+
+/* Creating an array of nested objects for category answers */
+
+let categoryAnswers = [
+    {
+        fifaAnswers:
+        {
+            tenPtsAnswer: ["Argentina", "Brazil", "Uruguay", "London"],
+            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+        }
+    },
+    {
+        cfbAnswers: 
+        {
+            tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+        }
+    },
+    {
+        nflAnswers: 
+        {
+            tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+        }
+    },
+    {
+        nbaAnswers: {
+            tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+        }
+    },
+    {
+        mlbAnswers: 
+        {
+            tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+        }        
+    },
+    {
+        olympicsAnswers: 
+        {
+            tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+        }        
+    }
+
+
+
+
+]
+
 
 
 
