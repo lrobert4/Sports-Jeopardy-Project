@@ -117,58 +117,10 @@ let categoryAnswers = [
         }        
     }
 
+] // End of array of objects for categoryAnswers
 
 
 
-]
-
-
-
-
-
-/* Objects that contain category answers */
-
-let fifaAnswers = {
-    tenPtsAnswer: ["Argentina", "Brazil", "Uruguay", "London"],
-    thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
-}
-
-let cfbAnswers = {
-    tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
-}
-
-let nflAnswers = {
-    tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
-}
-
-let nbaAnswers = {
-    tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
-}
-
-let mlbAnswers = {
-    tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
-}
-
-let olympicsAnswers = {
-    tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-    oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
-}
 
 /* Routing data into question and answers */
 
