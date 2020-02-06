@@ -75,7 +75,8 @@ let categoryAnswers = [
             tenPtsAnswer: ["Argentina", "Brazil", "Uruguay", "London"],
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            isCorrect: "RightAnswer"
         }
     },
     {
@@ -84,7 +85,8 @@ let categoryAnswers = [
             tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            isCorrect: "RightAnswer"
         }
     },
     {
@@ -93,7 +95,8 @@ let categoryAnswers = [
             tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            isCorrect: "RightAnswer"
         }
     },
     {
@@ -101,7 +104,8 @@ let categoryAnswers = [
             tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            isCorrect: "RightAnswer"
         }
     },
     {
@@ -110,7 +114,8 @@ let categoryAnswers = [
             tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            isCorrect: "RightAnswer"
         }        
     },
     {
@@ -119,7 +124,8 @@ let categoryAnswers = [
             tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"]
+            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
+            isCorrect: "RightAnswer"
         }        
     }
 
