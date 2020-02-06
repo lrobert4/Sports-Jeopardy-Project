@@ -95,6 +95,7 @@ const btns = document.querySelectorAll('.modal-btn');
 
 const submitBtn = document.querySelector('.submission');
 
+// Storing all input element values in captureAnswer variable
 let captureAnswer = document.querySelectorAll('.answers').value;
 
 // For each statement: it loops through the btns array of elements 
@@ -118,6 +119,13 @@ btns.forEach(btn => {
 
 function validateSub() {
     console.log('Your answer is submitted.');
+
+}
+
+// Limit user to select only one answer.
+function selectDeselect() {
+    let oneAnswer = 
+    captureAnswer
 }
 
 
