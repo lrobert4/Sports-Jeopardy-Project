@@ -416,19 +416,9 @@ let categoryData = [
 
 
 
-/* Storing data in variables that contain question and answer objects 
-
-let routeFifaQuestion = categoryData[0].fifaTenPts.questions;
-console.log(routeFifaQuestion);
-
-let routeFifaAnswer = categoryData[0].fifaTenPts.rightAnswer;
-console.log(routeFifaAnswer);
-
-*/
-
 // Added click event to all elements with the modal-btn class. 
 const categoryBox = document.querySelectorAll('.modal-btn');
-console.log(categoryBox);
+//console.log(categoryBox);
 
 categoryBox.forEach(box => {
     box.addEventListener('click', (e) => {
@@ -474,16 +464,19 @@ submitBtn.addEventListener('click', () => {
 
 
 // User must have atleast one answer selected to submit
-/*
-function validateSub() {
-    let x = document.forms['myForm']['catanswer'].value;
-    console.log(document.forms['myForm']['catanswer'])
+
+let x = document.querySelector('answers');
+console.log(x);
+
+/*function validateSub() {
+    let x = document.querySelector('answers').value;
+    console.log(x);
   if (x == "") {
     event.preventDefault();
-    document.getElementsByClassName('errormessage').innerHTML = "You must select one answer!";
+    document.getElementsByClassName('errormessage').textContent = "You must select one answer!";
 
   }
-  //console.log("work");
+
 
 } */
 
