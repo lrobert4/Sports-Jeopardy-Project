@@ -225,50 +225,383 @@ let categoryData = [
             
         }
     },
-
-    /*
     {
-        nflQuestions:
+        nflThirtyPts:
         {
-            id: ["routeNfl10", "routeNfl30", "routeNfl50", "routeNfl100"],
-            tenPts: "Which city are the 'Broncos' from/?",
-            thirtyPts: "This franchise played in Cleveland, Los Angeles, and St. Louis. Which team is this/?",
-            fiftyPts: "Which of the following is NOT an NFL team name/?",
-            oneHundredPts: "The Miami Dolphins began their franchise in 1966 in the AFL. They joined the NFL in 1970 under the helm of which head coach/?"
-        }
-    },*/
+            id: "routeNfl30",
+            questions: "This franchise played in Cleveland, Los Angeles, and St. Louis. Which team is this?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
 
-    {
-        nbaQuestions:
-        {
-            id: ["routeNba10", "routeNba30", "routeNba50", "routeNba100"],
-            tenPts: "Everyone knows about Dr. J, but do you know his real name/?",
-            thirtyPts: "What was the original name of the NBA/?",
-            fiftyPts: "What is Wilt Chamberlain's record for most points in a game/?",
-            oneHundredPts: "What was the original name of the NBA/?"
+            ],
+            points: 30
+            
+            
         }
     },
     {
-        mlbQuestions:
+        nflFiftyPts:
         {
-            id: ["routeMlb10", "routeMlb30", "routeMlb50", "routeMlb100"],
-            tenPts: "In the 2000s decade, which team other than the Yankees won two World Series/?",
-            thirtyPts: "Which American League team represented their league in the 2014 World Series/?",
-            fiftyPts: "Which team never had a winning record in a season during the 2000s decade/?",
-            oneHundredPts: "Who was the first player to hit 50 home runs and 50 doubles in a season/?"
+            id: "routeNfl50",
+            questions: "Which of the following is NOT an NFL team name?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 50
+            
+            
         }
     },
     {
-        olympicsQuestions:
+        nflOneHundredPts:
         {
-            id: ["routeOlympics10", "routeOlympics30", "routeOlympics50", "routeOlympics100"],
-            tenPts: "Who won the Olympics 100m race in London 2012/?",
-            thirtyPts: "Where was the summer olympics hosted in 1996/?",
-            fiftyPts: "Which athlete has won the most Olympic medals/?",
-            oneHundredPts: "Which of these countries has not hosted the summer Olympics/?"
-        }
+            id: "routeNfl100",
+            questions: "The Miami Dolphins began their franchise in 1966 in the AFL. They joined the NFL in 1970 under the helm of which head coach?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
 
+            ],
+            points: 100
+            
+            
+        }
+    },
+    {
+        nflTenPts:
+        {
+            id: "routeNba10",
+            questions: "Everyone knows about Dr. J, but do you know his real name?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 10
+            
+            
+        }
+    },
+    {
+        nflThirtyPts:
+        {
+            id: "routeNba30",
+            questions: "What was the original name of the NBA?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 30
+            
+            
+        }
+    },
+    {
+        nflFiftyPts:
+        {
+            id: "routeNba50",
+            questions: "What is Wilt Chamberlain's record for most points in a game?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 50
+            
+            
+        }
+    },
+    {
+        nflOneHundredPts:
+        {
+            id: "routeNba100",
+            questions: "What was the original name of the NBA?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 100
+            
+            
+        }
+    },
+    {
+        mlbTenPts:
+        {
+            id: "routeMlb10",
+            questions: "In the 2000s decade, which team other than the Yankees won two World Series?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 10
+            
+            
+        }
+    },
+    {
+        mlbThirtyPts:
+        {
+            id: "routeMlb30",
+            questions: "Which American League team represented their league in the 2014 World Series?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 30
+            
+            
+        }
+    },
+    {
+        mlbFiftyPts:
+        {
+            id: "routeMlb50",
+            questions: "Which team never had a winning record in a season during the 2000s decade?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 50
+            
+            
+        }
+    },
+    {
+        mlbOneHundredPts:
+        {
+            id: "routeMlb100",
+            questions: "Who was the first player to hit 50 home runs and 50 doubles in a season?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 100
+            
+            
+        }
+    },
+    {
+        olympicsTenPts:
+        {
+            id: "routeOlympics10",
+            questions: "Who won the Olympics 100m race in London 2012?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 10
+            
+            
+        }
+    },
+    {
+        olympicsThirtyPts:
+        {
+            id: "routeOlympics30",
+            questions: "Where was the summer olympics hosted in 1996?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 30
+            
+            
+        }
+    },
+    {
+        olympicsFiftyPts:
+        {
+            id: "routeOlympics50",
+            questions: "Which athlete has won the most Olympic medals?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 50
+            
+            
+        }
+    },
+    {
+        olympicsOneHundredPts:
+        {
+            id: "routeOlympics100",
+            questions: "Which of these countries has not hosted the summer Olympics?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 100
+            
+            
+        }
     }
+    
+
 
 ] //End of categoryQuestions array of nested objects
 
@@ -361,7 +694,7 @@ let categoryAnswers = [
 
 /* Routing data into question and answers */
 
-/* Storing id array in variable for access purposes */
+/* Storing id array in variable for access purposes 
 
 let routeFifaContent = categoryQuestions[0].fifaQuestions.id;
 console.log(routeFifaContent);
@@ -380,15 +713,15 @@ console.log(routeMlbContent);
 
 let routeOlympicsContent = categoryQuestions[5].olympicsQuestions.id;
 console.log(routeOlympicsContent);
+*/
 
-
-/*Storing right answer in variable for access purpose */
+/*Storing right answer in variable for access purpose 
 
 let accessFifaRightAnswer = categoryAnswers[0].fifaAnswers.isCorrect;
 console.log(accessFifaRightAnswer);
 
+*/
 
-/*
 
 
 
