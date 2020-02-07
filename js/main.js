@@ -1,4 +1,4 @@
-/* Creating an array of nested objects for category questions */
+/* Creating an array of nested objects for category data */
 let categoryData = [
     {
         fifaTenPts:
@@ -7,15 +7,15 @@ let categoryData = [
             questions: "Where was the first-ever World Cup held?",
             allAnswers: [
                 {
-                    answerOne: "",
+                    answerOne: "Brazil",
                     isCorrect: false
                 },
                 {
-                    answerTwo: "",
+                    answerTwo: "Mexico",
                     isCorrect: false
                 },
                 {
-                    answerThree: "",
+                    answerThree: "Uruguay",
                     isCorrect: true
                 }
 
@@ -606,21 +606,101 @@ let categoryData = [
 ] //End of categoryQuestions array of nested objects
 
 
-/* thirtyPts: "Who is the Champion of FIFA World Cup 2006/?",
-fiftyPts: "Who is the Champion of FIFA World Cup 2010 South Africa/?",
-oneHundredPts: "What was the score between Brazil and Italy in the 1970 Final/?" */
 
+
+/* Storing data in variables that contain question and answer objects */
+
+let routeFifaQuestion = categoryData[0].fifaTenPts.questions;
+console.log(routeFifaQuestion);
+
+let routeFifaAnswer = categoryData[0].fifaTenPts.allAnswers;
+console.log(routeFifaAnswer);
+
+// Added click event to all elements with the modal-btn class. 
+const categoryBox = document.querySelectorAll('.modal-btn');
+console.log(categoryBox);
+
+categoryBox.forEach(box => {
+    box.addEventListener('click', () => {
+
+        console.log('It Works!');
+
+    })
+})
+
+
+/* Storing id array in variable for access purposes 
+
+let routeCfbContent = categoryQuestions[1].cfbQuestions.id;
+console.log(routeCfbContent);
+
+let routeNflContent = categoryQuestions[2].nflQuestions.id;
+console.log(routeNflContent);
+
+let routeNbaContent = categoryQuestions[3].nbaQuestions.id;
+console.log(routeNbaContent);
+
+let routeMlbContent = categoryQuestions[4].mlbQuestions.id;
+console.log(routeMlbContent);
+
+let routeOlympicsContent = categoryQuestions[5].olympicsQuestions.id;
+console.log(routeOlympicsContent);
+
+*/
+
+
+/*Storing right answer in variable for access purpose 
+
+let accessFifaRightAnswer = categoryAnswers[0].fifaAnswers.isCorrect;
+console.log(accessFifaRightAnswer);
+
+*/
+
+
+
+/* Modal Functionality */
+
+const modalScreen = document.getElementById('myModal');
+
+// Creates an array of elements that have the class .modal-btn
+const btns = document.querySelectorAll('.modal-btn');
+
+const submitBtn = document.querySelector('.submission');
+
+// Storing all input element values in captureAnswer variable
+let captureAnswer = document.querySelectorAll('.answers').value;
+
+// For each statement: it loops through the btns array of elements 
+// and adds an event listener to each one. 
+btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+
+        modalScreen.style.display = "block";
+    })
+})
+
+submitBtn.addEventListener('click', () => {
+    modalScreen.style.display = "none";
+})
+
+
+// User must have atleast one answer selected to submit
 /*
-    {
-        cfbQuestions:
-        {
-            id: ["routeCfb10", "routeCfb30", "routeCfb50", "routeCfb100"],
-            tenPts: "Which of these teams is not in the SEC/?",
-            thirtyPts: "Which bowl game is played in Tampa, Florida (as of 2001)/?",
-            fiftyPts: "What two schools played in the first ever college football game in 1869/?",
-            oneHundredPts: "Which of these 4 major colleges did NOT put a QB into the NFL in the 1990s/?"
-        }
-    },*/
+function validateSub() {
+    let x = document.forms['myForm']['catanswer'].value;
+    console.log(document.forms['myForm']['catanswer'])
+  if (x == "") {
+    event.preventDefault();
+    document.getElementsByClassName('errormessage').innerHTML = "You must select one answer!";
+
+  }
+  //console.log("work");
+
+} */
+
+
+
+
 
 
 /* Creating an array of nested objects for category answers */
@@ -692,35 +772,6 @@ let categoryAnswers = [
 // End of array of objects for categoryAnswers
 
 
-/* Routing data into question and answers */
-
-/* Storing id array in variable for access purposes 
-
-let routeFifaContent = categoryQuestions[0].fifaQuestions.id;
-console.log(routeFifaContent);
-
-let routeCfbContent = categoryQuestions[1].cfbQuestions.id;
-console.log(routeCfbContent);
-
-let routeNflContent = categoryQuestions[2].nflQuestions.id;
-console.log(routeNflContent);
-
-let routeNbaContent = categoryQuestions[3].nbaQuestions.id;
-console.log(routeNbaContent);
-
-let routeMlbContent = categoryQuestions[4].mlbQuestions.id;
-console.log(routeMlbContent);
-
-let routeOlympicsContent = categoryQuestions[5].olympicsQuestions.id;
-console.log(routeOlympicsContent);
-*/
-
-/*Storing right answer in variable for access purpose 
-
-let accessFifaRightAnswer = categoryAnswers[0].fifaAnswers.isCorrect;
-console.log(accessFifaRightAnswer);
-
-*/
 
 
 
@@ -728,45 +779,8 @@ console.log(accessFifaRightAnswer);
 
 
 
-/* Modal Functionality */
-
-const modalScreen = document.getElementById('myModal');
-
-// Creates an array of elements that have the class .modal-btn
-const btns = document.querySelectorAll('.modal-btn');
-
-const submitBtn = document.querySelector('.submission');
-
-// Storing all input element values in captureAnswer variable
-let captureAnswer = document.querySelectorAll('.answers').value;
-
-// For each statement: it loops through the btns array of elements 
-// and adds an event listener to each one. 
-btns.forEach(btn => {
-    btn.addEventListener('click', () => {
-
-        modalScreen.style.display = "block";
-    })
-})
-
-submitBtn.addEventListener('click', () => {
-    modalScreen.style.display = "none";
-})
 
 
-// User must have atleast one answer selected to submit
-/*
-function validateSub() {
-    let x = document.forms['myForm']['catanswer'].value;
-    console.log(document.forms['myForm']['catanswer'])
-  if (x == "") {
-    event.preventDefault();
-    document.getElementsByClassName('errormessage').innerHTML = "You must select one answer!";
-
-  }
-  //console.log("work");
-
-} */
 
 
 
