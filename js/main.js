@@ -5,17 +5,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Where was the first-ever World Cup held?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "Brazil",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "Mexico",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "Uruguay",
+                    answer: "Brazil",
                     isCorrect: true
                 }
 
@@ -30,17 +22,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Who is the Champion of FIFA World Cup 2006?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -55,17 +39,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Who is the Champion of FIFA World Cup 2010 South Africa?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -80,17 +56,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "What was the score between Brazil and Italy in the 1970 Final?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -105,17 +73,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Which of these teams is not in the SEC?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -130,17 +90,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Which bowl game is played in Tampa, Florida (as of 2001)?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -155,17 +107,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "What two schools played in the first ever college football game in 1869?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -180,17 +124,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Which of these 4 major colleges did NOT put a QB into the NFL in the 1990s?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -205,17 +141,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Which of these teams is not in the SEC?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -230,17 +158,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "This franchise played in Cleveland, Los Angeles, and St. Louis. Which team is this?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -255,17 +175,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Which of the following is NOT an NFL team name?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -280,17 +192,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "The Miami Dolphins began their franchise in 1966 in the AFL. They joined the NFL in 1970 under the helm of which head coach?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -305,17 +209,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Everyone knows about Dr. J, but do you know his real name?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -330,17 +226,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "What was the original name of the NBA?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -355,17 +243,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "What is Wilt Chamberlain's record for most points in a game?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -380,17 +260,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "What was the original name of the NBA?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -405,17 +277,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "In the 2000s decade, which team other than the Yankees won two World Series?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -430,17 +294,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Which American League team represented their league in the 2014 World Series?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -455,17 +311,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Which team never had a winning record in a season during the 2000s decade?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -480,17 +328,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Who was the first player to hit 50 home runs and 50 doubles in a season?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -505,17 +345,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Who won the Olympics 100m race in London 2012?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -530,17 +362,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Where was the summer olympics hosted in 1996?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -555,17 +379,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Which athlete has won the most Olympic medals?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -580,17 +396,9 @@ let categoryData = [
         questionAnswers:
         {
             questions: "Which of these countries has not hosted the summer Olympics?",
-            allAnswers: [
+            rightAnswer: [
                 {
-                    answerOne: "",
-                    isCorrect: false
-                },
-                {
-                    answerTwo: "",
-                    isCorrect: false
-                },
-                {
-                    answerThree: "",
+                    answer: "right answer",
                     isCorrect: true
                 }
 
@@ -613,7 +421,7 @@ let categoryData = [
 let routeFifaQuestion = categoryData[0].fifaTenPts.questions;
 console.log(routeFifaQuestion);
 
-let routeFifaAnswer = categoryData[0].fifaTenPts.allAnswers;
+let routeFifaAnswer = categoryData[0].fifaTenPts.rightAnswer;
 console.log(routeFifaAnswer);
 
 */
