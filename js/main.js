@@ -1,13 +1,28 @@
 /* Creating an array of nested objects for category questions */
-let categoryQuestions = [
+let categoryData = [
     {
-        fifaQuestions:
+        fifaData:
         {
             id: ["routeFifa10", "routeFifa30", "routeFifa50", "routeFifa100"],
-            tenPts: "Where was the first-ever World Cup held/?",
-            thirtyPts: "Who is the Champion of FIFA World Cup 2006/?",
-            fiftyPts: "Who is the Champion of FIFA World Cup 2010 South Africa/?",
-            oneHundredPts: "What was the score between Brazil and Italy in the 1970 Final/?"
+            questions: "Where was the first-ever World Cup held?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 10,
+            
+            
         }
     },
     {
@@ -65,9 +80,14 @@ let categoryQuestions = [
 ] //End of categoryQuestions array of nested objects
 
 
+/* thirtyPts: "Who is the Champion of FIFA World Cup 2006/?",
+fiftyPts: "Who is the Champion of FIFA World Cup 2010 South Africa/?",
+oneHundredPts: "What was the score between Brazil and Italy in the 1970 Final/?" */
+
 
 /* Creating an array of nested objects for category answers */
 
+/*
 let categoryAnswers = [
     {
         fifaAnswers:
@@ -76,7 +96,7 @@ let categoryAnswers = [
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: "RightAnswer"
+            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
         }
     },
     {
@@ -86,7 +106,7 @@ let categoryAnswers = [
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: "RightAnswer"
+            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
         }
     },
     {
@@ -96,7 +116,7 @@ let categoryAnswers = [
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: "RightAnswer"
+            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
         }
     },
     {
@@ -105,7 +125,7 @@ let categoryAnswers = [
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: "RightAnswer"
+            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
         }
     },
     {
@@ -115,7 +135,7 @@ let categoryAnswers = [
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: "RightAnswer"
+            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
         }        
     },
     {
@@ -125,21 +145,46 @@ let categoryAnswers = [
             thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
             oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: "RightAnswer"
+            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
         }        
     }
 
-] // End of array of objects for categoryAnswers
+] */ 
+
+// End of array of objects for categoryAnswers
 
 
 /* Routing data into question and answers */
 
-let routeFifaContent = document.querySelectorAll('#routeFIFA');
-//routeFifaContent.forEach(function(categoryQuestions.fifaQuestions[i]) )
+/* Storing id array in variable for access purposes */
 
+let routeFifaContent = categoryQuestions[0].fifaQuestions.id;
 console.log(routeFifaContent);
 
-//const 
+let routeCfbContent = categoryQuestions[1].cfbQuestions.id;
+console.log(routeCfbContent);
+
+let routeNflContent = categoryQuestions[2].nflQuestions.id;
+console.log(routeNflContent);
+
+let routeNbaContent = categoryQuestions[3].nbaQuestions.id;
+console.log(routeNbaContent);
+
+let routeMlbContent = categoryQuestions[4].mlbQuestions.id;
+console.log(routeMlbContent);
+
+let routeOlympicsContent = categoryQuestions[5].olympicsQuestions.id;
+console.log(routeOlympicsContent);
+
+
+/*Storing right answer in variable for access purpose */
+
+let accessFifaRightAnswer = categoryAnswers[0].fifaAnswers.isCorrect;
+console.log(accessFifaRightAnswer);
+
+
+/*
+
 
 
 
