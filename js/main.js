@@ -638,34 +638,6 @@ categoryBox.forEach(box => {
 })
 
 
-/* Storing id array in variable for access purposes 
-
-let routeCfbContent = categoryQuestions[1].cfbQuestions.id;
-console.log(routeCfbContent);
-
-let routeNflContent = categoryQuestions[2].nflQuestions.id;
-console.log(routeNflContent);
-
-let routeNbaContent = categoryQuestions[3].nbaQuestions.id;
-console.log(routeNbaContent);
-
-let routeMlbContent = categoryQuestions[4].mlbQuestions.id;
-console.log(routeMlbContent);
-
-let routeOlympicsContent = categoryQuestions[5].olympicsQuestions.id;
-console.log(routeOlympicsContent);
-
-*/
-
-
-/*Storing right answer in variable for access purpose 
-
-let accessFifaRightAnswer = categoryAnswers[0].fifaAnswers.isCorrect;
-console.log(accessFifaRightAnswer);
-
-*/
-
-
 
 /* Modal Functionality */
 
