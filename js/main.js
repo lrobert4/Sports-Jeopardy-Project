@@ -2,7 +2,7 @@
 let categoryData = [
     {
         id: "routeFifa10",
-        fifaTenPts:
+        questionAnswers:
         {
             questions: "Where was the first-ever World Cup held?",
             allAnswers: [
@@ -27,7 +27,7 @@ let categoryData = [
     },
     {
         id: "routeFifa30",
-        fifaThirtyPts:
+        questionAnswers:
         {
             questions: "Who is the Champion of FIFA World Cup 2006?",
             allAnswers: [
@@ -52,7 +52,7 @@ let categoryData = [
     },
     {
         id: "routeFifa50",
-        fifaFiftyPts:
+        questionAnswers:
         {
             questions: "Who is the Champion of FIFA World Cup 2010 South Africa?",
             allAnswers: [
@@ -77,7 +77,7 @@ let categoryData = [
     },
     {
         id: "routeFifa100",
-        fifaOneHundredPts:
+        questionAnswers:
         {
             questions: "What was the score between Brazil and Italy in the 1970 Final?",
             allAnswers: [
@@ -102,7 +102,7 @@ let categoryData = [
     },
     {
         id: "routeCfb10",
-        cfbTenPts:
+        questionAnswers:
         {
             questions: "Which of these teams is not in the SEC?",
             allAnswers: [
@@ -127,9 +127,8 @@ let categoryData = [
     },
     {
         id: "routeCfb30",
-        cfbThirtyPts:
+        questionAnswers:
         {
-            
             questions: "Which bowl game is played in Tampa, Florida (as of 2001)?",
             allAnswers: [
                 {
@@ -153,9 +152,8 @@ let categoryData = [
     },
     {
         id: "routeCfb50",
-        cfbFiftyPts:
+        questionAnswers:
         {
-            
             questions: "What two schools played in the first ever college football game in 1869?",
             allAnswers: [
                 {
@@ -179,9 +177,8 @@ let categoryData = [
     },
     {
         id: "routeCfb100",
-        cfbOneHundredPts:
+        questionAnswers:
         {
-            
             questions: "Which of these 4 major colleges did NOT put a QB into the NFL in the 1990s?",
             allAnswers: [
                 {
@@ -205,9 +202,8 @@ let categoryData = [
     },
     {
         id: "routeNfl10",
-        nflTenPts:
+        questionAnswers:
         {
-            
             questions: "Which of these teams is not in the SEC?",
             allAnswers: [
                 {
@@ -231,9 +227,8 @@ let categoryData = [
     },
     {
         id: "routeNfl30",
-        nflThirtyPts:
+        questionAnswers:
         {
-            
             questions: "This franchise played in Cleveland, Los Angeles, and St. Louis. Which team is this?",
             allAnswers: [
                 {
@@ -257,9 +252,8 @@ let categoryData = [
     },
     {
         id: "routeNfl50",
-        nflFiftyPts:
+        questionAnswers:
         {
-            
             questions: "Which of the following is NOT an NFL team name?",
             allAnswers: [
                 {
@@ -283,9 +277,8 @@ let categoryData = [
     },
     {
         id: "routeNfl100",
-        nflOneHundredPts:
+        questionAnswers:
         {
-            
             questions: "The Miami Dolphins began their franchise in 1966 in the AFL. They joined the NFL in 1970 under the helm of which head coach?",
             allAnswers: [
                 {
@@ -309,7 +302,7 @@ let categoryData = [
     },
     {
         id: "routeNba10",
-        nflTenPts:
+        questionAnswers:
         {
             questions: "Everyone knows about Dr. J, but do you know his real name?",
             allAnswers: [
@@ -334,7 +327,7 @@ let categoryData = [
     },
     {
         id: "routeNba30",
-        nflThirtyPts:
+        questionAnswers:
         {
             questions: "What was the original name of the NBA?",
             allAnswers: [
@@ -359,7 +352,7 @@ let categoryData = [
     },
     {
         id: "routeNba50",
-        nflFiftyPts:
+        questionAnswers:
         {
             questions: "What is Wilt Chamberlain's record for most points in a game?",
             allAnswers: [
@@ -384,7 +377,7 @@ let categoryData = [
     },
     {
         id: "routeNba100",
-        nflOneHundredPts:
+        questionAnswers:
         {
             questions: "What was the original name of the NBA?",
             allAnswers: [
@@ -409,7 +402,7 @@ let categoryData = [
     },
     {
         id: "routeMlb10",
-        mlbTenPts:
+        questionAnswers:
         {
             questions: "In the 2000s decade, which team other than the Yankees won two World Series?",
             allAnswers: [
@@ -434,7 +427,7 @@ let categoryData = [
     },
     {
         id: "routeMlb30",
-        mlbThirtyPts:
+        questionAnswers:
         {
             questions: "Which American League team represented their league in the 2014 World Series?",
             allAnswers: [
@@ -459,7 +452,7 @@ let categoryData = [
     },
     {
         id: "routeMlb50",
-        mlbFiftyPts:
+        questionAnswers:
         {
             questions: "Which team never had a winning record in a season during the 2000s decade?",
             allAnswers: [
@@ -484,7 +477,7 @@ let categoryData = [
     },
     {
         id: "routeMlb100",
-        mlbOneHundredPts:
+        questionAnswers:
         {
             questions: "Who was the first player to hit 50 home runs and 50 doubles in a season?",
             allAnswers: [
@@ -509,7 +502,7 @@ let categoryData = [
     },
     {
         id: "routeOlympics10",
-        olympicsTenPts:
+        questionAnswers:
         {
             questions: "Who won the Olympics 100m race in London 2012?",
             allAnswers: [
@@ -534,7 +527,7 @@ let categoryData = [
     },
     {
         id: "routeOlympics30",
-        olympicsThirtyPts:
+        questionAnswers:
         {
             questions: "Where was the summer olympics hosted in 1996?",
             allAnswers: [
@@ -559,7 +552,7 @@ let categoryData = [
     },
     {
         id: "routeOlympics50",
-        olympicsFiftyPts:
+        questionAnswers:
         {
             questions: "Which athlete has won the most Olympic medals?",
             allAnswers: [
@@ -584,7 +577,7 @@ let categoryData = [
     },
     {
         id: "routeOlympics100",
-        olympicsOneHundredPts:
+        questionAnswers:
         {
             questions: "Which of these countries has not hosted the summer Olympics?",
             allAnswers: [
@@ -610,12 +603,12 @@ let categoryData = [
     
 
 
-] //End of categoryQuestions array of nested objects
+] //End of categoryData array of nested objects
 
 
 
 
-/* Storing data in variables that contain question and answer objects */
+/* Storing data in variables that contain question and answer objects 
 
 let routeFifaQuestion = categoryData[0].fifaTenPts.questions;
 console.log(routeFifaQuestion);
@@ -623,20 +616,22 @@ console.log(routeFifaQuestion);
 let routeFifaAnswer = categoryData[0].fifaTenPts.allAnswers;
 console.log(routeFifaAnswer);
 
+*/
+
 // Added click event to all elements with the modal-btn class. 
 const categoryBox = document.querySelectorAll('.modal-btn');
 console.log(categoryBox);
 
 categoryBox.forEach(box => {
     box.addEventListener('click', (e) => {
-        //console.log(e.target.id)
-        for(i=0; i < 25; i++) {
-            if (e.currentTarget.id === categoryData.id) {
-                console.log("it works!")
+        
+        for(i=0; i < categoryData.length; i++) {
+            if (e.currentTarget.id === categoryData[i].id) {
+                let newParagraph = categoryData[i].questionAnswers.questions;
+                document.querySelector('#myModal .question').textContent = newParagraph;
             }
         }
-        
-        // document.querySelector('#myModal .question').textContent = 
+     
 
     })
 })
@@ -712,77 +707,6 @@ function validateSub() {
 } */
 
 
-
-
-
-
-/* Creating an array of nested objects for category answers */
-
-/*
-let categoryAnswers = [
-    {
-        fifaAnswers:
-        {
-            tenPtsAnswer: ["Argentina", "Brazil", "Uruguay", "London"],
-            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
-        }
-    },
-    {
-        cfbAnswers: 
-        {
-            tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
-        }
-    },
-    {
-        nflAnswers: 
-        {
-            tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
-        }
-    },
-    {
-        nbaAnswers: {
-            tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
-        }
-    },
-    {
-        mlbAnswers: 
-        {
-            tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
-        }        
-    },
-    {
-        olympicsAnswers: 
-        {
-            tenPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            thirtyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            fiftyPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            oneHundredPtsAnswer: ["Answer1", "Answer2", "RightAnswer", "Answer3"],
-            isCorrect: ["RightAnswer", "RightAnswer", "RightAnswer", "RightAnswer" ]
-        }        
-    }
-
-] */ 
-
-// End of array of objects for categoryAnswers
 
 
 
