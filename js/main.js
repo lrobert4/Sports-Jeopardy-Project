@@ -629,6 +629,7 @@ categoryBox.forEach(box => {
             if (e.currentTarget.id === categoryData[i].id) {
                 let newParagraph = categoryData[i].questionAnswers.questions;
                 document.querySelector('#myModal .question').textContent = newParagraph;
+                
             }
         }
      
