@@ -1,9 +1,9 @@
 /* Creating an array of nested objects for category questions */
 let categoryData = [
     {
-        fifaData:
+        fifaTenPts:
         {
-            id: ["routeFifa10", "routeFifa30", "routeFifa50", "routeFifa100"],
+            id: "routeFifa10",
             questions: "Where was the first-ever World Cup held?",
             allAnswers: [
                 {
@@ -20,21 +20,213 @@ let categoryData = [
                 }
 
             ],
-            points: 10,
+            points: 10
             
             
         }
     },
     {
-        cfbQuestions:
+        fifaThirtyPts:
         {
-            id: ["routeCfb10", "routeCfb30", "routeCfb50", "routeCfb100"],
-            tenPts: "Which of these teams is not in the SEC/?",
-            thirtyPts: "Which bowl game is played in Tampa, Florida (as of 2001)/?",
-            fiftyPts: "What two schools played in the first ever college football game in 1869/?",
-            oneHundredPts: "Which of these 4 major colleges did NOT put a QB into the NFL in the 1990s/?"
+            id: "routeFifa30",
+            questions: "Who is the Champion of FIFA World Cup 2006?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 30
+            
+            
         }
     },
+    {
+        fifaFiftyPts:
+        {
+            id: "routeFifa50",
+            questions: "Who is the Champion of FIFA World Cup 2010 South Africa?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 50
+            
+            
+        }
+    },
+    {
+        fifaOneHundredPts:
+        {
+            id: "routeFifa100",
+            questions: "What was the score between Brazil and Italy in the 1970 Final?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 100
+            
+            
+        }
+    },
+    {
+        cfbTenPts:
+        {
+            id: "routeCfb10",
+            questions: "Which of these teams is not in the SEC?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 10
+            
+            
+        }
+    },
+    {
+        cfbThirtyPts:
+        {
+            id: "routeCfb30",
+            questions: "Which bowl game is played in Tampa, Florida (as of 2001)?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 30
+            
+            
+        }
+    },
+    {
+        cfbFiftyPts:
+        {
+            id: "routeCfb50",
+            questions: "What two schools played in the first ever college football game in 1869?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 50
+            
+            
+        }
+    },
+    {
+        cfbOneHundredPts:
+        {
+            id: "routeCfb100",
+            questions: "Which of these 4 major colleges did NOT put a QB into the NFL in the 1990s?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 100
+            
+            
+        }
+    },
+    {
+        nflTenPts:
+        {
+            id: "routeNfl10",
+            questions: "Which of these teams is not in the SEC?",
+            allAnswers: [
+                {
+                    answerOne: "",
+                    isCorrect: false
+                },
+                {
+                    answerTwo: "",
+                    isCorrect: false
+                },
+                {
+                    answerThree: "",
+                    isCorrect: true
+                }
+
+            ],
+            points: 10
+            
+            
+        }
+    },
+
+    /*
     {
         nflQuestions:
         {
@@ -44,7 +236,8 @@ let categoryData = [
             fiftyPts: "Which of the following is NOT an NFL team name/?",
             oneHundredPts: "The Miami Dolphins began their franchise in 1966 in the AFL. They joined the NFL in 1970 under the helm of which head coach/?"
         }
-    },
+    },*/
+
     {
         nbaQuestions:
         {
@@ -83,6 +276,18 @@ let categoryData = [
 /* thirtyPts: "Who is the Champion of FIFA World Cup 2006/?",
 fiftyPts: "Who is the Champion of FIFA World Cup 2010 South Africa/?",
 oneHundredPts: "What was the score between Brazil and Italy in the 1970 Final/?" */
+
+/*
+    {
+        cfbQuestions:
+        {
+            id: ["routeCfb10", "routeCfb30", "routeCfb50", "routeCfb100"],
+            tenPts: "Which of these teams is not in the SEC/?",
+            thirtyPts: "Which bowl game is played in Tampa, Florida (as of 2001)/?",
+            fiftyPts: "What two schools played in the first ever college football game in 1869/?",
+            oneHundredPts: "Which of these 4 major colleges did NOT put a QB into the NFL in the 1990s/?"
+        }
+    },*/
 
 
 /* Creating an array of nested objects for category answers */
