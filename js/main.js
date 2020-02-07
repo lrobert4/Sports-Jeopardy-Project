@@ -29,7 +29,6 @@ let categoryData = [
         id: "routeFifa30",
         fifaThirtyPts:
         {
-            
             questions: "Who is the Champion of FIFA World Cup 2006?",
             allAnswers: [
                 {
@@ -55,7 +54,6 @@ let categoryData = [
         id: "routeFifa50",
         fifaFiftyPts:
         {
-            
             questions: "Who is the Champion of FIFA World Cup 2010 South Africa?",
             allAnswers: [
                 {
