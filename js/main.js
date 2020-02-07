@@ -8,7 +8,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "Brazil",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -25,7 +26,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -42,7 +44,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -59,7 +62,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -76,7 +80,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -93,7 +98,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -110,7 +116,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -127,7 +134,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -144,7 +152,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -161,7 +170,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -178,7 +188,9 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
+
                 }
 
             ],
@@ -195,7 +207,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -212,7 +225,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -229,7 +243,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -246,7 +261,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -263,7 +279,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -280,7 +297,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -297,7 +315,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -314,7 +333,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -331,7 +351,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -348,7 +369,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -365,7 +387,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -382,7 +405,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -399,7 +423,8 @@ let categoryData = [
             rightAnswer: [
                 {
                     answer: "right answer",
-                    isCorrect: true
+                    isCorrect: true,
+                    isWrong: false
                 }
 
             ],
@@ -446,27 +471,45 @@ const btns = document.querySelectorAll('.modal-btn');
 
 const submitBtn = document.querySelector('.submission');
 
-// Storing all input element values in captureAnswer variable
-let captureAnswer = document.querySelectorAll('.answers').value;
-
 // For each statement: it loops through the btns array of elements 
 // and adds an event listener to each one. 
 btns.forEach(btn => {
     btn.addEventListener('click', () => {
 
         modalScreen.style.display = "block";
+        
     })
 })
 
 submitBtn.addEventListener('click', () => {
+    // Storing all input element values in captureAnswer variable
+    let captureAnswer = document.querySelector('.answers').value;
+    for(i=0; i < categoryData.length; i++) {
+        let validateAnswer = categoryData[i].questionAnswers.rightAnswer;
+        //console.log(captureAnswer);
+        console.log(validateAnswer);
+
+        if(captureAnswer === validateAnswer) {
+            
+            console.log(isCorrect);
+
+        } else {
+            
+            
+
+        }
+
+    }
+    
+
     modalScreen.style.display = "none";
 })
 
 
 // User must have atleast one answer selected to submit
 
-let x = document.querySelector('answers');
-console.log(x);
+
+
 
 /*function validateSub() {
     let x = document.querySelector('answers').value;
