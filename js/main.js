@@ -1,9 +1,9 @@
 /* Creating an array of nested objects for category data */
 let categoryData = [
     {
+        id: "routeFifa10",
         fifaTenPts:
         {
-            id: "routeFifa10",
             questions: "Where was the first-ever World Cup held?",
             allAnswers: [
                 {
@@ -26,9 +26,10 @@ let categoryData = [
         }
     },
     {
+        id: "routeFifa30",
         fifaThirtyPts:
         {
-            id: "routeFifa30",
+            
             questions: "Who is the Champion of FIFA World Cup 2006?",
             allAnswers: [
                 {
@@ -51,9 +52,10 @@ let categoryData = [
         }
     },
     {
+        id: "routeFifa50",
         fifaFiftyPts:
         {
-            id: "routeFifa50",
+            
             questions: "Who is the Champion of FIFA World Cup 2010 South Africa?",
             allAnswers: [
                 {
@@ -76,9 +78,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeFifa100",
         fifaOneHundredPts:
         {
-            id: "routeFifa100",
             questions: "What was the score between Brazil and Italy in the 1970 Final?",
             allAnswers: [
                 {
@@ -101,9 +103,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeCfb10",
         cfbTenPts:
         {
-            id: "routeCfb10",
             questions: "Which of these teams is not in the SEC?",
             allAnswers: [
                 {
@@ -126,9 +128,10 @@ let categoryData = [
         }
     },
     {
+        id: "routeCfb30",
         cfbThirtyPts:
         {
-            id: "routeCfb30",
+            
             questions: "Which bowl game is played in Tampa, Florida (as of 2001)?",
             allAnswers: [
                 {
@@ -151,9 +154,10 @@ let categoryData = [
         }
     },
     {
+        id: "routeCfb50",
         cfbFiftyPts:
         {
-            id: "routeCfb50",
+            
             questions: "What two schools played in the first ever college football game in 1869?",
             allAnswers: [
                 {
@@ -176,9 +180,10 @@ let categoryData = [
         }
     },
     {
+        id: "routeCfb100",
         cfbOneHundredPts:
         {
-            id: "routeCfb100",
+            
             questions: "Which of these 4 major colleges did NOT put a QB into the NFL in the 1990s?",
             allAnswers: [
                 {
@@ -201,9 +206,10 @@ let categoryData = [
         }
     },
     {
+        id: "routeNfl10",
         nflTenPts:
         {
-            id: "routeNfl10",
+            
             questions: "Which of these teams is not in the SEC?",
             allAnswers: [
                 {
@@ -226,9 +232,10 @@ let categoryData = [
         }
     },
     {
+        id: "routeNfl30",
         nflThirtyPts:
         {
-            id: "routeNfl30",
+            
             questions: "This franchise played in Cleveland, Los Angeles, and St. Louis. Which team is this?",
             allAnswers: [
                 {
@@ -251,9 +258,10 @@ let categoryData = [
         }
     },
     {
+        id: "routeNfl50",
         nflFiftyPts:
         {
-            id: "routeNfl50",
+            
             questions: "Which of the following is NOT an NFL team name?",
             allAnswers: [
                 {
@@ -276,9 +284,10 @@ let categoryData = [
         }
     },
     {
+        id: "routeNfl100",
         nflOneHundredPts:
         {
-            id: "routeNfl100",
+            
             questions: "The Miami Dolphins began their franchise in 1966 in the AFL. They joined the NFL in 1970 under the helm of which head coach?",
             allAnswers: [
                 {
@@ -301,9 +310,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeNba10",
         nflTenPts:
         {
-            id: "routeNba10",
             questions: "Everyone knows about Dr. J, but do you know his real name?",
             allAnswers: [
                 {
@@ -326,9 +335,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeNba30",
         nflThirtyPts:
         {
-            id: "routeNba30",
             questions: "What was the original name of the NBA?",
             allAnswers: [
                 {
@@ -351,9 +360,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeNba50",
         nflFiftyPts:
         {
-            id: "routeNba50",
             questions: "What is Wilt Chamberlain's record for most points in a game?",
             allAnswers: [
                 {
@@ -376,9 +385,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeNba100",
         nflOneHundredPts:
         {
-            id: "routeNba100",
             questions: "What was the original name of the NBA?",
             allAnswers: [
                 {
@@ -401,9 +410,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeMlb10",
         mlbTenPts:
         {
-            id: "routeMlb10",
             questions: "In the 2000s decade, which team other than the Yankees won two World Series?",
             allAnswers: [
                 {
@@ -426,9 +435,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeMlb30",
         mlbThirtyPts:
         {
-            id: "routeMlb30",
             questions: "Which American League team represented their league in the 2014 World Series?",
             allAnswers: [
                 {
@@ -451,9 +460,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeMlb50",
         mlbFiftyPts:
         {
-            id: "routeMlb50",
             questions: "Which team never had a winning record in a season during the 2000s decade?",
             allAnswers: [
                 {
@@ -476,9 +485,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeMlb100",
         mlbOneHundredPts:
         {
-            id: "routeMlb100",
             questions: "Who was the first player to hit 50 home runs and 50 doubles in a season?",
             allAnswers: [
                 {
@@ -501,9 +510,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeOlympics10",
         olympicsTenPts:
         {
-            id: "routeOlympics10",
             questions: "Who won the Olympics 100m race in London 2012?",
             allAnswers: [
                 {
@@ -526,9 +535,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeOlympics30",
         olympicsThirtyPts:
         {
-            id: "routeOlympics30",
             questions: "Where was the summer olympics hosted in 1996?",
             allAnswers: [
                 {
@@ -551,9 +560,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeOlympics50",
         olympicsFiftyPts:
         {
-            id: "routeOlympics50",
             questions: "Which athlete has won the most Olympic medals?",
             allAnswers: [
                 {
@@ -576,9 +585,9 @@ let categoryData = [
         }
     },
     {
+        id: "routeOlympics100",
         olympicsOneHundredPts:
         {
-            id: "routeOlympics100",
             questions: "Which of these countries has not hosted the summer Olympics?",
             allAnswers: [
                 {
@@ -621,9 +630,15 @@ const categoryBox = document.querySelectorAll('.modal-btn');
 console.log(categoryBox);
 
 categoryBox.forEach(box => {
-    box.addEventListener('click', () => {
-
-        console.log('It Works!');
+    box.addEventListener('click', (e) => {
+        //console.log(e.target.id)
+        for(i=0; i < 25; i++) {
+            if (e.currentTarget.id === categoryData.id) {
+                console.log("it works!")
+            }
+        }
+        
+        // document.querySelector('#myModal .question').textContent = 
 
     })
 })
