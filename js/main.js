@@ -253,15 +253,52 @@ const rightAnswer = categoryData.map(function(newArr) {
 });
 //console.log(rightAnswer);
 
-/*Create a new array with just points
-const rightPoints = categoryData.map(function(newPts) {
-    return newPts.points;
-});
-console.log(rightPoints);*/
+
 
 let beginPoints = 0;
 //Access the points in array of objects
 const arrayOfPts = [10,30,50,100,500];
+const isWrong = false;
+
+
+//Selected all child descendents of #row-one and set equal to 10 pts
+const rowOneDescendants = document.querySelectorAll('#row-one > div');
+console.log(rowOneDescendants);
+const rowOnePts = arrayOfPts[0];
+console.log(rowOnePts);
+
+
+//Selected all child descendents of #row-two and set equal to 30 pts
+const rowTwoDescendants = document.querySelectorAll('#row-two > div');
+console.log(rowTwoDescendants);
+const rowTwoPts = arrayOfPts[1];
+console.log(rowTwoPts);
+
+
+//Selected all child descendents of #row-three and set equal to 50 pts
+const rowThreeDescendants = document.querySelectorAll('#row-three > div');
+console.log(rowThreeDescendants);
+const rowThreePts = arrayOfPts[2];
+console.log(rowThreePts);
+
+
+//Selected all child descendents of #row-four and set equal to 100 pts
+const rowFourDescendants = document.querySelectorAll('#row-four > div');
+console.log(rowFourDescendants);
+const rowFourPts = arrayOfPts[3];
+console.log(rowFourPts);
+
+
+//Selected all child descendents of #row-five and set equal to 500 pts
+const rowFiveDescendants = document.querySelectorAll('#row-five > div');
+console.log(rowFiveDescendants);
+const rowFivePts = arrayOfPts[4];
+console.log(rowFivePts);
+
+// Variable that stores the content of Player Points
+const getPoints = document.querySelector('#pointsTab .score');
+
+
 
 
 
@@ -278,8 +315,24 @@ const btns = document.querySelectorAll('.modal-btn');
 
 const submitBtn = document.querySelector('.submission');
 
-// Variable that stores the content of Player Points
-const getPoints = document.querySelector('#pointsTab .score');
+
+
+// Variable that acess text input
+const accessInput = document.querySelector('.answers');
+
+
+//Add Points function
+function addPoints() {
+    for(i=0; i < categoryData.length; i++) {
+        if (e.currentTarget.id === categoryData[i].id) {
+            let newPoints = categoryData[i].points;
+            beginPoints += parseInt(newPoints);
+            getPoints.textContent = beginPoints;
+            
+        }
+    }
+}
+
 
 // For each statement: it loops through the btns array of elements 
 // and adds an event listener to each one. 
@@ -291,39 +344,34 @@ btns.forEach(btn => {
     })
 })
 
+
+
 submitBtn.addEventListener('click', () => {
     // Storing all input element values in captureAnswer variable
     const captureAnswer = document.querySelector('.answers').value;
+    
     //console.log(captureAnswer);
-
+    
     rightAnswer.forEach((validate) => {
-        if(captureAnswer == "") {
-            document.getElementsByTagName('label').borderColor = "red";
-        }
-        else if(captureAnswer == validate) {
+        
+        if(captureAnswer == validate) {
             
             console.log('Your right!');
-
-            categoryBox.forEach(pointAdd => {
-                pointAdd.addEventListener('click', (e) => {
-                    
-                    for(i=0; i < categoryData.length; i++) {
-                        if (e.currentTarget.id === categoryData[i].id) {
-                            let newPoints = categoryData[i].points;
-                            beginPoints += parseInt(newPoints);
-                            getPoints.textContent = beginPoints;
-                            
-                        }
-                    }
-                 
+            beginPoints += validate.points;
+            getPoints.textContent = beginPoints;
             
-                })
-            }) //End of forEach loop
+            modalScreen.style.display = "none";        
+                   
             
            
             
+        } else if(captureAnswer == "") {
+            document.querySelector('.answers').style.borderColor = "red";
+            
+            
+            
         } else {
-
+            document.querySelector('.answers').style.borderColor = "red";
             document.querySelector('.errormessage').textContent = "You entered the wrong answer!";
             
         }
@@ -332,17 +380,12 @@ submitBtn.addEventListener('click', () => {
     
     document.querySelector('.answers').value = "";
     document.querySelector('.errormessage').textContent = "";
-
+    document.querySelector('.answers').style.borderColor = "none";
 
     
 
-    modalScreen.style.display = "none";
+    
 })
-
-
-
-
-
 
 
 
@@ -355,41 +398,6 @@ submitBtn.addEventListener('click', () => {
 
 
 // User must have atleast one answer selected to submit
-
-
-
-
-/*function validateSub() {
-    let x = document.querySelector('answers').value;
-    console.log(x);
-  if (x == "") {
-    event.preventDefault();
-    document.getElementsByClassName('errormessage').textContent = "You must select one answer!";
-
-  }
-
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
