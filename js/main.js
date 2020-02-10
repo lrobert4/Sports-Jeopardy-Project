@@ -215,6 +215,15 @@ let categoryData = [
         isWrong: false,
         points: 100
         
+    },
+    {
+        id: "final-question",
+        questions: "In 1978 US Masters, who was leading Gary Player by seven strokes, only to lose by a single stroke?",
+        answer: "Hubert Green",
+        isCorrect: true,
+        isWrong: false,
+        points: 500
+        
     }
     
 
@@ -256,11 +265,12 @@ const rightAnswer = categoryData.map(function(newArr) {
 
 
 let beginPoints = 0;
+let losingBenchmark = -150;
 //Access the points in array of objects
 const arrayOfPts = [10,30,50,100,500];
 const isWrong = false;
 
-
+/*
 //Selected all child descendents of #row-one and set equal to 10 pts
 const rowOneDescendants = document.querySelectorAll('#row-one > div');
 console.log(rowOneDescendants);
@@ -295,12 +305,11 @@ console.log(rowFiveDescendants);
 const rowFivePts = arrayOfPts[4];
 console.log(rowFivePts);
 
+*/
+
+
 // Variable that stores the content of Player Points
 const getPoints = document.querySelector('#pointsTab .score');
-
-
-
-
 
 
 
@@ -316,22 +325,8 @@ const btns = document.querySelectorAll('.modal-btn');
 const submitBtn = document.querySelector('.submission');
 
 
-
 // Variable that acess text input
 const accessInput = document.querySelector('.answers');
-
-
-//Add Points function
-function addPoints() {
-    for(i=0; i < categoryData.length; i++) {
-        if (e.currentTarget.id === categoryData[i].id) {
-            let newPoints = categoryData[i].points;
-            beginPoints += parseInt(newPoints);
-            getPoints.textContent = beginPoints;
-            
-        }
-    }
-}
 
 
 // For each statement: it loops through the btns array of elements 
@@ -353,27 +348,35 @@ submitBtn.addEventListener('click', () => {
     //console.log(captureAnswer);
     
     categoryData.forEach((pt) => {
-        
-        if(captureAnswer == pt.answer) {
+        //console.log(pt.answer)
+        if(captureAnswer == "") {
+            document.querySelector('.answers').style.borderColor = "red";
+            document.querySelector('.errormessage').textContent = "You entered the wrong answer!";
             
-            console.log('Your right!');
+        } else if(captureAnswer == pt.answer) {
+            
+            //console.log('Your right!');
             beginPoints += pt.points;
             getPoints.textContent = beginPoints;
             
             modalScreen.style.display = "none";        
-                   
             
-           
             
-        } else if(captureAnswer == "") {
+        } else if (captureAnswer !== pt.answer) {
             document.querySelector('.answers').style.borderColor = "red";
+            beginPoints -= pt.points;
+            getPoints.textContent = beginPoints;
             
+            modalScreen.style.display = "none"; 
             
-            
-        } else {
-            document.querySelector('.answers').style.borderColor = "red";
-            document.querySelector('.errormessage').textContent = "You entered the wrong answer!";
-            
+        } else if (beginPoints >= 600) {
+
+            alert("HOORAY! You have officially won the game!");
+
+        }  else if (beginPoints < -1) {
+
+            alert("You have lost the game!!");
+
         }
 
 
@@ -389,15 +392,12 @@ submitBtn.addEventListener('click', () => {
 
 
 
+
+
+
 }) // End of submitBtn EventListener
 
 
-
-
-
-
-
-// User must have atleast one answer selected to submit
 
 
 
