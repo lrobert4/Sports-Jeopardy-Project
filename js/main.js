@@ -362,13 +362,6 @@ submitBtn.addEventListener('click', () => {
             modalScreen.style.display = "none";        
             
             
-        } else if (captureAnswer !== pt.answer) {
-            document.querySelector('.answers').style.borderColor = "red";
-            beginPoints -= pt.points;
-            getPoints.textContent = beginPoints;
-            
-            modalScreen.style.display = "none"; 
-            
         } else if (beginPoints >= 600) {
 
             alert("HOORAY! You have officially won the game!");
