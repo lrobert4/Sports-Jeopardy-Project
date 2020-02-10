@@ -12,7 +12,7 @@ let categoryData = [
     {
         id: "routeFifa30",
         questions: "Who is the Champion of FIFA World Cup 2006?",
-        answer: "right answer",
+        answer: "Italy",
         isCorrect: true,
         isWrong: false,
         points: 30
@@ -21,7 +21,7 @@ let categoryData = [
     {
         id: "routeFifa50",
         questions: "Who is the Champion of FIFA World Cup 2010 South Africa?",
-        answer: "right answer",
+        answer: "Spain",
         isCorrect: true,
         isWrong: false,
         points: 50
@@ -30,7 +30,7 @@ let categoryData = [
     {
         id: "routeFifa100",
         questions: "What was the score between Brazil and Italy in the 1970 Final?",
-        answer: "right answer",
+        answer: "4-3",
         isCorrect: true,
         isWrong: false,
         points: 100
@@ -38,8 +38,8 @@ let categoryData = [
     },
     {
         id: "routeCfb10",
-        questions: "Which of these teams is not in the SEC?",
-        answer: "right answer",
+        questions: "Which school is termed as the Mecca of college football in South Bend?",
+        answer: "Notre Dame",
         isCorrect: true,
         isWrong: false,
         points: 10
@@ -48,7 +48,7 @@ let categoryData = [
     {
         id: "routeCfb30",
         questions: "Which bowl game is played in Tampa, Florida (as of 2001)?",
-        answer: "right answer",
+        answer: "Outback Bowl",
         isCorrect: true,
         isWrong: false,
         points: 30
@@ -57,7 +57,7 @@ let categoryData = [
     {
         id: "routeCfb50",
         questions: "What two schools played in the first ever college football game in 1869?",
-        answer: "right answer",
+        answer: "Rutgers and Princeton",
         isCorrect: true,
         isWrong: false,
         points: 50
@@ -65,8 +65,8 @@ let categoryData = [
     },
     {
         id: "routeCfb100",
-        questions: "Which of these 4 major colleges did NOT put a QB into the NFL in the 1990s?",
-        answer: "right answer",
+        questions: "Who won a Heisman Trophy playing for the University of Pittsburgh?",
+        answer: "Tony Dorsett",
         isCorrect: true,
         isWrong: false,
         points: 100
@@ -74,8 +74,8 @@ let categoryData = [
     },
     {
         id: "routeNfl10",
-        questions: "Which of these teams is not in the SEC?",
-        answer: "right answer",
+        questions: "Tommie Fraizer won a national championship with what college?",
+        answer: "Nebraska",
         isCorrect: true,
         isWrong: false,
         points: 10
@@ -84,7 +84,7 @@ let categoryData = [
     {
         id: "routeNfl30",
         questions: "This franchise played in Cleveland, Los Angeles, and St. Louis. Which team is this?",
-        answer: "right answer",
+        answer: "Rams",
         isCorrect: true,
         isWrong: false,
         points: 30
@@ -92,8 +92,8 @@ let categoryData = [
     },
     {
         id: "routeNfl50",
-        questions: "Which of the following is NOT an NFL team name?",
-        answer: "right answer",
+        questions: "The 2008 Indianapolis Colts franchise joined the NFL in 1953 under which name?",
+        answer: "Baltimore Colts",
         isCorrect: true,
         isWrong: false,
         points: 50
@@ -101,8 +101,8 @@ let categoryData = [
     },
     {
         id: "routeNfl100",
-        questions: "The Miami Dolphins began their franchise in 1966 in the AFL. They joined the NFL in 1970 under the helm of which head coach?",
-        answer: "right answer",
+        questions: "Which year saw the Cincinnati Bengals become part of the NFL?",
+        answer: "1968",
         isCorrect: true,
         isWrong: false,
         points: 100
@@ -110,8 +110,8 @@ let categoryData = [
     },
     {
         id: "routeNba10",
-        questions: "Everyone knows about Dr. J, but do you know his real name?",
-        answer: "right answer",
+        questions: "Which NBA team played at Amway Arena 1989-2010?",
+        answer: "Orlando Magic",
         isCorrect: true,
         isWrong: false,
         points: 10
@@ -119,8 +119,8 @@ let categoryData = [
     },
     {
         id: "routeNba30",
-        questions: "What was the original name of the NBA?",
-        answer: "right answer",
+        questions: "The Atlanta Hawks franchise joined the NBA in 1950. What was their franchise name in 1950?",
+        answer: "Tri-Cities Blackhawks",
         isCorrect: true,
         isWrong: false,
         points: 30
@@ -129,7 +129,7 @@ let categoryData = [
     {
         id: "routeNba50",
         questions: "What is Wilt Chamberlain's record for most points in a game?",
-        answer: "right answer",
+        answer: "100",
         isCorrect: true,
         isWrong: false,
         points: 50
@@ -138,7 +138,7 @@ let categoryData = [
     {
         id: "routeNba100",
         questions: "What was the original name of the NBA?",
-        answer: "right answer",
+        answer: "Basketball Association of America",
         isCorrect: true,
         isWrong: false,
         points: 100
@@ -146,8 +146,8 @@ let categoryData = [
     },
     {
         id: "routeMlb10",
-        questions: "In the 2000s decade, which team other than the Yankees won two World Series?",
-        answer: "right answer",
+        questions: "In the 2010s decade who was the first player to win the league MVP and Cy Young Award in the same season in the National League?",
+        answer: "Clayton Kershaw",
         isCorrect: true,
         isWrong: false,
         points: 10
@@ -156,7 +156,7 @@ let categoryData = [
     {
         id: "routeMlb30",
         questions: "Which American League team represented their league in the 2014 World Series?",
-        answer: "right answer",
+        answer: "Kansas City Royals",
         isCorrect: true,
         isWrong: false,
         points: 30
@@ -165,7 +165,7 @@ let categoryData = [
     {
         id: "routeMlb50",
         questions: "Which team never had a winning record in a season during the 2000s decade?",
-        answer: "right answer",
+        answer: "Baltimore Orioles",
         isCorrect: true,
         isWrong: false,
         points: 50
@@ -174,7 +174,7 @@ let categoryData = [
     {
         id: "routeMlb100",
         questions: "Who was the first player to hit 50 home runs and 50 doubles in a season?",
-        answer: "right answer",
+        answer: "Albert Belle",
         isCorrect: true,
         isWrong: false,
         points: 100
@@ -183,7 +183,7 @@ let categoryData = [
     {
         id: "routeOlympics10",
         questions: "Who won the Olympics 100m race in London 2012?",
-        answer: "right answer",
+        answer: "Usain Bolt",
         isCorrect: true,
         isWrong: false,
         points: 10
@@ -192,7 +192,7 @@ let categoryData = [
     {
         id: "routeOlympics30",
         questions: "Where was the summer olympics hosted in 1996?",
-        answer: "right answer",
+        answer: "Atlanta GA",
         isCorrect: true,
         isWrong: false,
         points: 30
@@ -201,7 +201,7 @@ let categoryData = [
     {
         id: "routeOlympics50",
         questions: "Which athlete has won the most Olympic medals?",
-        answer: "right answer",
+        answer: "Michael Phelps",
         isCorrect: true,
         isWrong: false,
         points: 50
@@ -209,8 +209,8 @@ let categoryData = [
     },
     {
         id: "routeOlympics100",
-        questions: "Which of these countries has not hosted the summer Olympics?",
-        answer: "right answer",
+        questions: "Carl Lewis won Gold in which event at four consecutive Olympics?",
+        answer: "Long Jump",
         isCorrect: true,
         isWrong: false,
         points: 100
@@ -257,6 +257,11 @@ const rightAnswer = categoryData.map(function(newArr) {
 });
 
 
+// onSubmit function for form
+function onSumbit() {
+    console.log('onsubmit works!');
+}
+
 
 /* Modal Functionality */
 
@@ -280,45 +285,19 @@ btns.forEach(btn => {
 submitBtn.addEventListener('click', () => {
     // Storing all input element values in captureAnswer variable
     const captureAnswer = document.querySelector('.answers').value;
-    console.log(captureAnswer);
+    //console.log(captureAnswer);
 
+   
 
     rightAnswer.forEach((validate) => {
-        if(captureAnswer == rightAnswer) {
+        if(captureAnswer == validate) {
+            
             console.log('Your right!');
-        } 
+        } else {
+            document.querySelector('.errormessage').textContent = "You entered the wrong answer!";
+        }
     })
     
-    /*for(i=0; i < categoryData.length; i++) {
-        let validateAnswer = categoryData[i].questionAnswers.rightAnswer[0].answer;
-        //console.log(captureAnswer);
-        console.log(validateAnswer);
-
-
-
-
-
-        /*
-        if(captureAnswer !== validateAnswer) {
-            
-            return "Wrong Answer!";
-            
-
-        } else {
-            
-              return   // console.log(categoryData[i].questionAnswers.rightAnswer[0].isWrong);
-            
-            
-
-        }*/
-
-    //}
-
-    /*while(categoryData[i].questionAnswers.rightAnswer[0].answer < 25) {
-
-
-
-    }*/
     
 
     modalScreen.style.display = "none";

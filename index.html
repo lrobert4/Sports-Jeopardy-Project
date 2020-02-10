@@ -15,6 +15,7 @@
     <header>
         <nav class="scoreboard">
             <h1>SCOREBOARD</h1>
+            <h3>Player Points: <span class="score">0</span></h3>
         </nav>
 
     </header>
@@ -182,13 +183,13 @@
         <div class="cat-question-box pt-color modal-content">
             
             <p class="question">How many Super Bowls appearances has Bill Belicheck made?</p> <br/>
+            
                 
+                <form name="triviaform" id="triviaform" onsubmit="validateRight">
                 <label><input class="answers" type="text"> </label><br>
-                
                 <label><span class="errormessage"></span></label>
-
-                <button class = "submission">Submit Answer</button>
-
+                <button class ="submission">Submit Answer</button>
+                </form> 
             
         </div><!--- End of modal-content-->
 
