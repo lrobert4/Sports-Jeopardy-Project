@@ -248,7 +248,7 @@ categoryBox.forEach(box => {
 
 //Create a new array with just the right answers
 const rightAnswer = categoryData.map(function(newArr) {
-    return newArr.answer;
+    return newArr.answer ;
     
 });
 //console.log(rightAnswer);
@@ -352,12 +352,12 @@ submitBtn.addEventListener('click', () => {
     
     //console.log(captureAnswer);
     
-    rightAnswer.forEach((validate) => {
+    categoryData.forEach((pt) => {
         
-        if(captureAnswer == validate) {
+        if(captureAnswer == pt.answer) {
             
             console.log('Your right!');
-            beginPoints += validate.points;
+            beginPoints += pt.points;
             getPoints.textContent = beginPoints;
             
             modalScreen.style.display = "none";        
