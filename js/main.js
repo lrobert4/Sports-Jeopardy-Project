@@ -221,14 +221,6 @@ let categoryData = [
 
 ] //End of categoryData array of nested objects
 
-/*
-const getRightAnswers = categoryData.map(answers) => {
-    return questionAnswers.rightAnswer[0];
-}
-
-console.log(getRightAnswers);
-
-*/
 
 
 // Added click event to all elements with the modal-btn class. 
@@ -251,16 +243,30 @@ categoryBox.forEach(box => {
 })
 
 
+
+
+
 //Create a new array with just the right answers
 const rightAnswer = categoryData.map(function(newArr) {
     return newArr.answer;
+    
 });
+//console.log(rightAnswer);
+
+/*Create a new array with just points
+const rightPoints = categoryData.map(function(newPts) {
+    return newPts.points;
+});
+console.log(rightPoints);*/
+
+let beginPoints = 0;
+//Access the points in array of objects
+const arrayOfPts = [10,30,50,100,500];
 
 
-// onSubmit function for form
-function onSumbit() {
-    console.log('onsubmit works!');
-}
+
+
+
 
 
 /* Modal Functionality */
@@ -271,6 +277,9 @@ const modalScreen = document.getElementById('myModal');
 const btns = document.querySelectorAll('.modal-btn');
 
 const submitBtn = document.querySelector('.submission');
+
+// Variable that stores the content of Player Points
+const getPoints = document.querySelector('#pointsTab .score');
 
 // For each statement: it loops through the btns array of elements 
 // and adds an event listener to each one. 
@@ -287,21 +296,61 @@ submitBtn.addEventListener('click', () => {
     const captureAnswer = document.querySelector('.answers').value;
     //console.log(captureAnswer);
 
-   
-
     rightAnswer.forEach((validate) => {
-        if(captureAnswer == validate) {
+        if(captureAnswer == "") {
+            document.getElementsByTagName('label').borderColor = "red";
+        }
+        else if(captureAnswer == validate) {
             
             console.log('Your right!');
+
+            categoryBox.forEach(pointAdd => {
+                pointAdd.addEventListener('click', (e) => {
+                    
+                    for(i=0; i < categoryData.length; i++) {
+                        if (e.currentTarget.id === categoryData[i].id) {
+                            let newPoints = categoryData[i].points;
+                            beginPoints += parseInt(newPoints);
+                            getPoints.textContent = beginPoints;
+                            
+                        }
+                    }
+                 
+            
+                })
+            }) //End of forEach loop
+            
+           
+            
         } else {
+
             document.querySelector('.errormessage').textContent = "You entered the wrong answer!";
+            
         }
-    })
+
+
     
+    document.querySelector('.answers').value = "";
+    document.querySelector('.errormessage').textContent = "";
+
+
     
 
     modalScreen.style.display = "none";
 })
+
+
+
+
+
+
+
+
+}) // End of submitBtn EventListener
+
+
+
+
 
 
 
