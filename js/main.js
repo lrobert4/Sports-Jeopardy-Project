@@ -1,4 +1,6 @@
-const timerStart = 5;
+// Create a countdown clock. User has 5 minutes to get 600pts 
+
+const timerStart = 1;
 let time = timerStart * 60;
 
 const countdownEl = document.getElementById('countdown');
@@ -16,7 +18,10 @@ function timeIt() {
     time = time < 0 ? 0 : time; 
 
 
-}
+} // End of timeIt() function
+
+
+setTimeout(function(){ alert("Time Expired! You have lost the game!"); }, 60000);
 
 
 
@@ -292,44 +297,6 @@ let beginPoints = 0;
 
 
 
-/*
-//Selected all child descendents of #row-one and set equal to 10 pts
-const rowOneDescendants = document.querySelectorAll('#row-one > div');
-console.log(rowOneDescendants);
-const rowOnePts = arrayOfPts[0];
-console.log(rowOnePts);
-
-
-//Selected all child descendents of #row-two and set equal to 30 pts
-const rowTwoDescendants = document.querySelectorAll('#row-two > div');
-console.log(rowTwoDescendants);
-const rowTwoPts = arrayOfPts[1];
-console.log(rowTwoPts);
-
-
-//Selected all child descendents of #row-three and set equal to 50 pts
-const rowThreeDescendants = document.querySelectorAll('#row-three > div');
-console.log(rowThreeDescendants);
-const rowThreePts = arrayOfPts[2];
-console.log(rowThreePts);
-
-
-//Selected all child descendents of #row-four and set equal to 100 pts
-const rowFourDescendants = document.querySelectorAll('#row-four > div');
-console.log(rowFourDescendants);
-const rowFourPts = arrayOfPts[3];
-console.log(rowFourPts);
-
-
-//Selected all child descendents of #row-five and set equal to 500 pts
-const rowFiveDescendants = document.querySelectorAll('#row-five > div');
-console.log(rowFiveDescendants);
-const rowFivePts = arrayOfPts[4];
-console.log(rowFivePts);
-
-*/
-
-
 // Variable that stores the content of Player Points
 const getPoints = document.querySelector('#pointsTab .score');
 
@@ -344,8 +311,10 @@ const modalScreen = document.getElementById('myModal');
 // Creates an array of elements that have the class .modal-btn
 const btns = document.querySelectorAll('.modal-btn');
 
+// Store access to the submission btn in the modal
 const submitBtn = document.querySelector('.submission');
 
+// Store access to the skip question btn in modal
 const dntKnowBtn = document.querySelector('.dntknow');
 
 
@@ -364,7 +333,7 @@ btns.forEach(btn => {
 })
 
 
-
+// Event Listener for the submit btn in the modal
 submitBtn.addEventListener('click', () => {
     // Storing all input element values in captureAnswer variable
     const captureAnswer = document.querySelector('.answers').value;
@@ -412,7 +381,7 @@ dntKnowBtn.addEventListener('click', () => {
 })
 
 
-while(countdownEl.innerHTML == 1) {
+if(countdownEl.innerHTML == 1) {
     alert("Time Expired! You have lost the game!");
 }
 
