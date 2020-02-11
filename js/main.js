@@ -1,3 +1,24 @@
+const timerStart = 5;
+let time = timerStart * 60;
+
+const countdownEl = document.getElementById('countdown');
+
+setInterval(timeIt, 1000);
+
+function timeIt() {
+    const minutes = Math.floor(time / 60);
+    let seconds = time % 60;
+
+    seconds = seconds < 10 ? '0' + seconds : seconds;
+
+    countdownEl.innerHTML = `${minutes}:${seconds}`;
+    time--;
+
+
+}
+
+
+
 /* Creating an array of nested objects for category data */
 let categoryData = [
     {
@@ -255,20 +276,20 @@ categoryBox.forEach(box => {
 
 
 
+
+
 //Create a new array with just the right answers
 const rightAnswer = categoryData.map(function(newArr) {
     return newArr.answer ;
     
 });
-//console.log(rightAnswer);
+
 
 
 
 let beginPoints = 0;
-let losingBenchmark = -150;
-//Access the points in array of objects
-const arrayOfPts = [10,30,50,100,500];
-const isWrong = false;
+
+
 
 /*
 //Selected all child descendents of #row-one and set equal to 10 pts

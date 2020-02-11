@@ -1,6 +1,6 @@
 nav {
     background: #ccc;
-    height: 80px;
+    height: 120px;
 }
 
 h1 {
@@ -51,6 +51,15 @@ h1 {
 
 h3 {
     text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+    color: black;
 }
 
 
