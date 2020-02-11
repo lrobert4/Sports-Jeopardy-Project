@@ -1,11 +1,12 @@
 nav {
     background: #ccc;
-    height: 120px;
+    height: 180px;
 }
 
 h1 {
     text-align: center;
     padding-top: 32px;
+    padding-bottom: 10px;
 }
 
 .category-row {
@@ -48,18 +49,28 @@ h1 {
 }
 
 /* Scoreboard Styles */
+h1 {
+    font-size: 1.5em;
+}
 
 h3 {
     text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 h5 {
     text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 h6 {
     text-align: center;
     color: black;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 
