@@ -365,10 +365,7 @@ submitBtn.addEventListener('click', () => {
         } else if (beginPoints >= 600) {
 
             alert("HOORAY! You have officially won the game!");
-
-        }  else if (beginPoints < -1) {
-
-            alert("You have lost the game!!");
+            
 
         }
 
