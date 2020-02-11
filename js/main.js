@@ -13,6 +13,11 @@ function timeIt() {
 
     countdownEl.innerHTML = `${minutes}:${seconds}`;
     time--;
+    time = time < 0 ? 0 : time; 
+
+    if(countdownEl === 0){
+        alert("Time Expired! You lost game!")
+    }
 
 
 }
@@ -345,6 +350,8 @@ const btns = document.querySelectorAll('.modal-btn');
 
 const submitBtn = document.querySelector('.submission');
 
+const dntKnowBtn = document.querySelector('.dntknow');
+
 
 // Variable that acess text input
 const accessInput = document.querySelector('.answers');
@@ -397,16 +404,16 @@ submitBtn.addEventListener('click', () => {
     document.querySelector('.answers').style.borderColor = "none";
 
     
-
-    
 })
 
 
-
-
-
-
 }) // End of submitBtn EventListener
+
+
+//Event Listener for user to click if they want to skip the question
+dntKnowBtn.addEventListener('click', () => {
+    modalScreen.style.display = "none";
+})
 
 
 
