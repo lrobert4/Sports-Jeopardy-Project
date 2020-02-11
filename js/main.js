@@ -3,7 +3,7 @@
 const timerStart = 5;
 let time = timerStart * 60;
 
-const countdownEl = document.getElementById('countdown');
+const countdownId = document.getElementById('countdown');
 
 setInterval(timeIt, 1000);
 
@@ -13,7 +13,7 @@ function timeIt() {
 
     seconds = seconds < 10 ? '0' + seconds : seconds;
 
-    countdownEl.innerHTML = `${minutes}:${seconds}`;
+    countdownId.innerHTML = `${minutes}:${seconds}`;
     time--;
     time = time < 0 ? 0 : time; 
 
