@@ -2,6 +2,7 @@
 
 ### Important Links:
 (https://trello.com/b/PnDuxVDn/jeopardy-project)
+(https://competent-noyce-d03371.netlify.com/)
 
 ___________________________________________________________
 ### Game Rules:
