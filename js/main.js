@@ -338,17 +338,17 @@ submitBtn.addEventListener('click', () => {
     // Storing all input element values in captureAnswer variable
     const captureAnswer = document.querySelector('.answers').value;
     
-    //console.log(captureAnswer);
+    
     
     categoryData.forEach((pt) => {
-        //console.log(pt.answer)
+       
         if(captureAnswer == "") {
             document.querySelector('.answers').style.borderColor = "red";
             document.querySelector('.errormessage').textContent = "You entered the wrong answer!";
             
         } else if(captureAnswer == pt.answer) {
             
-            //console.log('Your right!');
+            
             beginPoints += pt.points;
             getPoints.textContent = beginPoints;
             
@@ -380,10 +380,6 @@ dntKnowBtn.addEventListener('click', () => {
     modalScreen.style.display = "none";
 })
 
-
-if(countdownEl.innerHTML == 1) {
-    alert("Time Expired! You have lost the game!");
-}
 
 
 
