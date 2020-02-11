@@ -15,10 +15,6 @@ function timeIt() {
     time--;
     time = time < 0 ? 0 : time; 
 
-    if(countdownEl === 0){
-        alert("Time Expired! You lost game!")
-    }
-
 
 }
 
@@ -414,6 +410,11 @@ submitBtn.addEventListener('click', () => {
 dntKnowBtn.addEventListener('click', () => {
     modalScreen.style.display = "none";
 })
+
+
+while(countdownEl.innerHTML == 1) {
+    alert("Time Expired! You have lost the game!");
+}
 
 
 
