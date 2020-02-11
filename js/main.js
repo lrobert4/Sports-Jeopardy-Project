@@ -1,6 +1,6 @@
 // Create a countdown clock. User has 5 minutes to get 600pts 
 
-const timerStart = 1;
+const timerStart = 5;
 let time = timerStart * 60;
 
 const countdownEl = document.getElementById('countdown');
@@ -21,7 +21,7 @@ function timeIt() {
 } // End of timeIt() function
 
 
-setTimeout(function(){ alert("Time Expired! You have lost the game!"); }, 60000);
+setTimeout(function(){ alert("Time Expired! You have lost the game!"); }, 300000);
 
 
 
