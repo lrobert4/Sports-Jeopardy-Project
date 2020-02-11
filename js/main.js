@@ -368,7 +368,7 @@ submitBtn.addEventListener('click', () => {
             
 
         }
-
+       
 
     
     document.querySelector('.answers').value = "";
